@@ -42,7 +42,7 @@ const pusher = new Pusher({
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://leadmanager-isoq.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
 }));
 app.use(express.json());
